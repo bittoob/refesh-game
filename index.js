@@ -1,5 +1,5 @@
 var u1 = prompt("Enter First player Name : ");
-var u2 = prompt("Enter Second player Name : ");
+//var u2 = prompt("Enter Second player Name : ");
 
 var r1 = Math.floor(Math.random()*6)+1;
 var r1image = "dice"+r1+".png";
@@ -20,7 +20,7 @@ if(r1 > r2){
     document.querySelector("h1").innerHTML = ` 🏁 ${u1} Wins `;
 }
 else if(r2 > r1){
-    document.querySelector("h1").innerHTML = ` 🏁 ${u2} Wins `;
+    document.querySelector("h1").innerHTML = ` 🏁 Computer Wins `;
 }
 else{
     document.querySelector("h1").innerHTML = " Match Draw";
